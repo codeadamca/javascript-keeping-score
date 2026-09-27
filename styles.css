@@ -8,6 +8,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f5f5f5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -16,4 +19,39 @@ h1 {
     font-size: 40vw;
     margin: 0;
     color: #333;
+}
+
+
+#codeadam a:link,
+#codeadam a:active,
+#codeadam a:hover,
+#codeadam a:visited,
+#docs a:link,
+#docs a:active,
+#docs a:hover,
+#docs a:visited{
+    color: #000 !important;
+    text-decoration: none;
+}
+
+#codeadam {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 24px;
+    padding: 15px;
+    z-index: 10000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#codeadam img {
+    vertical-align: middle;
+}
+
+#docs {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 30px;
+    padding: 15px;
+    color: #000;
 }
